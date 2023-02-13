@@ -20,7 +20,7 @@ Convert videos to images stored in given directory.
 s = conVideoToImages(filename, ['range', range, 'savepath', spth, 'percent', percent, 'resize', resize, 'ext', ext, 'fmt', fmt])
 ```
 
-To see a detailed parameter documentation, see []()
+To see a detailed parameter documentation, see [here](https://github.com/PACRian/DLT-VO-uti/blob/main/ImgProcUtilti/conVideoToImages.m)
 
 The output is a signature to indicate whether it successed or not.
 
@@ -34,5 +34,5 @@ Apply some image transformation to process all the images from one directory to 
 s = refineImages(filepath, ['range', range, 'resize', resize, 'readInfo', readInfo,'IncludeSubfolder', IncludeSubfoler, 'savepath', spth, 'percent', percent,  'ext', ext, 'fmt', fmt])
 ```
 
-Detailed codesnap can also be found [here]()
+Detailed codesnap can also be found [here](https://github.com/PACRian/DLT-VO-uti/blob/main/ImgProcUtilti/refineImages.m)
 
